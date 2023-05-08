@@ -8,17 +8,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="279dp"
-        android:layout_height="342dp"
-        android:layout_marginBottom="48dp"
+        android:layout_width="272dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="164dp"
         android:fontFamily="sans-serif-light"
-        android:text="The courage, love, care and faith brought us here! 💚
-
-We believe you all will enjoy the place we created!
-
-Take a well-deserved break! Come! Let's have a seat! Let's talk! Let's enjoy and finally breathe!
-
-You might ask: what is the Prestige Garden Studio?
+        android:text="
 We are a family-based business selling TOP quality Bonsai trees!
 Is it only sales? NO! we are more than that.
 First of all, it's a place to come and enjoy!
@@ -28,6 +22,7 @@ Do we provide planting and plant care services? Yes, we do!
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -42,12 +37,24 @@ Do we provide planting and plant care services? Yes, we do!
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="197dp"
-        android:layout_height="188dp"
+        android:layout_width="223dp"
+        android:layout_height="200dp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794"
+        app:layout_constraintVertical_bias="0.764"
         app:srcCompat="@drawable/_80206811_5344780035573434_404496635289364981_n" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAKE ME TO BONSAI GARDEN!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.232" />
 </android.support.constraint.ConstraintLayout>
