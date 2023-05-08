@@ -6,22 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".AboutPage">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="179dp"
-        android:layout_height="169dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324"
-        app:srcCompat="@drawable/pg_jpng" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="279dp"
         android:layout_height="342dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="48dp"
         android:fontFamily="sans-serif-light"
         android:text="The courage, love, care and faith brought us here! 💚
 
@@ -49,7 +38,16 @@ Do we provide planting and plant care services? Yes, we do!
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="197dp"
+        android:layout_height="188dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.516" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794"
+        app:srcCompat="@drawable/_80206811_5344780035573434_404496635289364981_n" />
 </android.support.constraint.ConstraintLayout>
