@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Button buttonExplore= findViewById(R.id.buttonExplore);
         buttonExplore.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-
+                // makes the button in MainActivity page open About page screen
                 Intent intent = new Intent(MainActivity.this, AboutPage.class);
                 startActivity(intent);
             }

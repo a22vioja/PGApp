@@ -16,7 +16,7 @@ public class AboutPage extends AppCompatActivity {
         Button button= findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-
+                // makes the button in About page open Recycle page screen
                 Intent intent = new Intent(AboutPage.this, RecycleView.class);
                 startActivity(intent);
             }
