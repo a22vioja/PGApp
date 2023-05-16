@@ -1,6 +1,5 @@
 package com.example.pgapp;
 
-
 import android.os.AsyncTask;
 
 import java.io.BufferedReader;

@@ -1,33 +1,50 @@
 package com.example.pgapp;
+import com.google.gson.annotations.SerializedName;
+import android.content.Context;
+import android.view.View;
 
-public class Bonsai {
-    private int height;
-    private int age;
-    private String ID;
+@SuppressWarnings("WeakerAccess")
+public class Bonsai extends View {
+    @SerializedName("Name")
     private String name;
+    @SerializedName("ID")
+    private int id;
+    @SerializedName("size")
+    private String height;
+    @SerializedName("cost")
+    private int price;
 
-    public int getHeight() {
-        return height;
-    }
-    public void setHeight(int height) {
+    public Bonsai(String name, String ID, int size, int price, Context context) {
+        super(context);
+        this.name = name;
+        this.id = id;
         this.height = height;
+        this.price = price;
     }
-    public int getAge() {
-        return age;
+
+    public Bonsai(String s, String i, Context context) {
+        super(context);
+        name = "No name";
+        id = Integer.parseInt("No id");
+        height = "No height";
+        price = 0;
     }
-    public void setAge(int age) {
-        this.age = age;
+
+    public void setName(String n) {
+        name = n;
     }
-    public String getID() {
-        return ID;
-    }
-    public void setID(String ID) {
-        this.ID = ID;
-    }
+
     public String getName() {
         return name;
     }
-    public void setName(String name) {
-        this.name = name;
+
+    public int getId() {
+        return id;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
 }

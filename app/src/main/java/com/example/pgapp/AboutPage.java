@@ -1,7 +1,7 @@
 package com.example.pgapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,7 +17,7 @@ public class AboutPage extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 // makes the button in About page open Recycle page screen
-                Intent intent = new Intent(AboutPage.this, RecycleView.class);
+                Intent intent = new Intent(AboutPage.this, RecyclerActivity.class);
                 startActivity(intent);
             }
         });

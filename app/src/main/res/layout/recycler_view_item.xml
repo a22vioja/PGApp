@@ -10,21 +10,26 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="144dp"
+        android:layout_width="82dp"
         android:layout_height="179dp"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/size"
-        android:layout_width="109dp"
+        android:layout_width="97dp"
         android:layout_height="179dp"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/price"
-        android:layout_width="128dp"
+        android:layout_width="98dp"
         android:layout_height="178dp"
         android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="95dp"
+        android:layout_height="178dp"
+        android:textSize="18sp" />
 
 </LinearLayout>

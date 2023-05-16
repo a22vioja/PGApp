@@ -1,12 +1,14 @@
 package com.example.pgapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
+
+public class MainActivity extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 // makes the button in MainActivity page open About page screen
                 Intent intent = new Intent(MainActivity.this, AboutPage.class);
                 startActivity(intent);
+
             }
         });
     }
