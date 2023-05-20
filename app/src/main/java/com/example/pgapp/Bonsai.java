@@ -9,16 +9,25 @@ public class Bonsai {
     public String name;
     @SerializedName("ID")
     public String id;
-    @SerializedName("size")
+    @SerializedName("Size")
     public String height;
-    @SerializedName("cost")
+
+    @SerializedName("Cost")
     public int price;
 
-    public Bonsai(String name, String id, String height, int price) {
+    @SerializedName("Category")
+    public String category;
+
+    @SerializedName("Login")
+    public String login;
+
+    public Bonsai(String name, String id, String height, int price, String category, String login) {
         this.name = name;
         this.id = id;
         this.height = height;
         this.price = price;
+        this.category = category;
+        this.login = login;
     }
 
     /*
@@ -50,5 +59,14 @@ public class Bonsai {
     public String toString() {
         return name;
     }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+    public int getPrice() {
+        return price;
+    }
+
+
 
 }

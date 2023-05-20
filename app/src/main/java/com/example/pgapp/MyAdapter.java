@@ -1,6 +1,5 @@
 package com.example.pgapp;
 
-import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +14,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     private ArrayList<Bonsai> trees;
     private LayoutInflater layoutInflater;
     private View.OnClickListener onClickListener;
+    //private OnClickListener onClickListener;
 
    /* public MyAdapter(Context context, ArrayList<Bonsai> trees, View.OnClickListener onClickListener) {
         this.layoutInflater = LayoutInflater.from(context);
@@ -27,9 +27,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         this.trees = listOfBonsai;
         this.onClickListener = onClickListener;
     }
-    public MyAdapter(RecyclerActivity context, ArrayList<Bonsai> listOfBonsai) {
+
+    public MyAdapter(RecyclerActivity context, ArrayList<Bonsai> listOfBonsai, OnClickListener onClickListener) {
         this.layoutInflater = LayoutInflater.from(context);
         this.trees = listOfBonsai;
+        //this.trees.addAll(listOfBonsai);
         //this.onClickListener = onClickListener;
     }
 
@@ -59,13 +61,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             //itemView.setOnClickListener(this);
             title = itemView.findViewById(R.id.name);
         }
-/*
+        /*
         @Override
         public void onClick(View view) {
             onClickListener.onClick(trees.get(getAdapterPosition()));
-        }
-
- */
+        }*/
     }
 
     public void addData(ArrayList<Bonsai> listOfBonsai){

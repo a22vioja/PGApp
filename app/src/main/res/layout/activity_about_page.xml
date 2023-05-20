@@ -12,13 +12,11 @@
         android:layout_height="192dp"
         android:layout_marginBottom="164dp"
         android:fontFamily="sans-serif-light"
-        android:text="
-We are a family-based business selling TOP quality Bonsai trees!
-Is it only sales? NO! we are more than that.
-First of all, it's a place to come and enjoy!
-Do we design landscapes? Yes, we do! We also offer landscape design consultations.
-Do we provide planting and plant care services? Yes, we do!
-"
+        android:text=" We are a family-based business selling TOP quality Bonsai trees!\n
+Is it only sales? NO! we are more than that.\n
+First of all, it's a place to come and enjoy!\n
+Do we design landscapes? Yes, we do! We also offer landscape design consultations.\n
+Do we provide planting and plant care services? Yes, we do!"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,6 +29,7 @@ Do we provide planting and plant care services? Yes, we do!
         android:layout_height="41dp"
         android:text="WHO ARE WE?"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
