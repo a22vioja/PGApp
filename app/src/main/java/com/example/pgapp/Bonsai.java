@@ -30,6 +30,12 @@ public class Bonsai {
         this.login = login;
     }
 
+  /*  public String info() {
+        String tmp = new String();
+        tmp += "Name:" + name + " ID:" + id + "Cost: " + price;
+        return tmp;
+    }*/
+
     /*
         public Bonsai(String name, String ID, int size, int price, Context context) {
             super(context);
