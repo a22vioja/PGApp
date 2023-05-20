@@ -7,7 +7,7 @@ The idea for the app is to show main page as a welcome screen with the button "E
 which takes the user to About page where business owner present the main activities of their company.
 This is the skis of an idea:
 
-![](SkissPG.jpg)
+![](SkissPG.paint)
 
 App presents data of the Bonsai trees with JSON-data from the university web. This line of the code
 (Figure 1) is in the RecyclerActivity:
@@ -79,7 +79,7 @@ Figure 3
         android:textSize="18sp" />
 
 ```
-![](rvi.jpg)
+![](rvi.png)
 
 This is the link to the relevant commit: 
 https://github.com/a22vioja/PGApp/commit/420d9b16468e0358251dab6f8cbdab7dfcb66a6d 
@@ -166,7 +166,7 @@ This is the link to the relevant commit:
 https://github.com/a22vioja/PGApp/commit/9edd0433ff1efe7aee2400ad1b0ba9925b411e76 
 
 This is the About Page screen:
-![](aboutPG.jpg)
+![](aboutPG.png)
 
 
 This is the implementation of MyAdapter class and Recycler view:
