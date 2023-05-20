@@ -7,7 +7,7 @@ The idea for the app is to show main page as a welcome screen with the button "E
 which takes the user to About page where business owner present the main activities of their company.
 This is the skis of an idea:
 
-![](SkissPG.paint)
+![](Skis.png)
 
 App presents data of the Bonsai trees with JSON-data from the university web. This line of the code
 (Figure 1) is in the RecyclerActivity:
